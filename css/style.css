@@ -1,0 +1,135 @@
+@font-face
+{
+    font-family: 'OpenSans-Light';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../fonts/opensanslight.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face
+{
+    font-family: 'OpenSans';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/opensans.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face
+{
+    font-family: 'OpenSans-Semibold';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../fonts/opensanssemibold.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face
+{
+    font-family: 'OpenSans-Bold';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/opensansbold.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face
+{
+    font-family: 'OpenSans-Extrabold';
+    font-weight: 800;
+    font-style: normal;
+    src: url('../fonts/opensansextrabold.woff2') format('woff2');
+    font-display: swap;
+}
+
+/*Меняется сдандартный алгоритм расчета размера блока, размер перастает учитывать отступы  */
+html
+{
+    box-sizing: border-box;
+}
+/*Применяется правила наследования box-sizing для наследуемых элементов*/
+*,
+*::before,
+*::after
+{
+    box-sizing: inherit;
+}
+
+body
+{   
+    margin: 0;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333;
+    background-color: #fff;
+}
+
+
+:root 
+{
+    --font-orange: #c93;
+    --font-white: #fff;
+}
+
+/*стили для скрытых элементов*/
+.visually-hidden
+{
+    position: absolute !important;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px 1px 1px 1px);
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+/*очищает плавающие элементы*/
+.clearfix::after
+{
+    display: table;
+    clear: both;
+    content: '';
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.btn {
+    padding: 15px 35.5px;
+    background-color: #3172B9;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 3px;
+    border-color: transparent;
+}
+
+.title {
+    margin: 0;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46.8px;
+}
+
+.section_descr {
+    margin: 0;
+    font-size: 16px;
+    color: #787878;
+}
+
