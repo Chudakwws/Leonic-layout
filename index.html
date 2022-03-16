@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <title>Lionic</title>
 </head>
 <body>
@@ -21,21 +22,24 @@
                 </a>              
             </div>
             <div class="header_wrapper">
-                <ul class="header_nav">
-                    <li class="nav_item"><a class="nav_link" href="#">Home</a></li>
-                    <li class="nav_item"><a class="nav_link" href="#">Services</a></li>
-                    <li class="nav_item"><a class="nav_link" href="#">Articles</a></li>
-                    <li class="nav_item"><a class="nav_link" href="#">Clients</a></li>
-                    <li class="nav_item"><a class="nav_link" href="#">Contacts</a></li>
-                    <li class="nav_item"><a class="nav_link" href="#">Join us</a></li>
-                </ul>
+                <nav>
+                    <ul class="header_nav">
+                        <li class="nav_item"><a class="nav_link" href="#hero">Home</a></li>
+                        <li class="nav_item"><a class="nav_link" href="#services">Services</a></li>
+                        <li class="nav_item"><a class="nav_link" href="#articles">Articles</a></li>
+                        <li class="nav_item"><a class="nav_link" href="#clients">Clients</a></li>
+                        <li class="nav_item"><a class="nav_link" href="#contacts">Contacts</a></li>
+                        <li class="nav_item"><a class="nav_link" href="#join-us">Join us</a></li>
+                    </ul>
+                </nav>
+                
                 <button class="btn">FREE TRIAL</button>
             </div>
         </div>
     </header>
     <main>
         <h1 class="visually-hidden">Lionic homepage</h1>
-        <section class="hero">
+        <section id="hero" class="hero">
             <div class="hero_container container">
                 <div class="hero_wrapper">
                     <h2 class="hero_title">This is simply a smarter way to make your legal online</h2>
@@ -47,7 +51,7 @@
                 </div>  
             </div>
         </section>
-        <section class="services">
+        <section id="services" class="services">
             <div class="services_container container">
                 <h2 class="services_title title">Services</h2>
                 <p class="services_descr section_descr">Lionic guides you on making decisions for all aspects of your end-of-life plans.
@@ -84,46 +88,54 @@
                 </ul>
             </div>
         </section>
-        <section class="articles">
+        <section id="articles" class="articles">
             <div class="articles_container container">
                 <h2 class="articles_title title">Articles</h2>
                 <ul class="articles_list">
                     <li class="article">
-                        <img src="img/Rectangle 18.jpg" alt="">
-                        <div class="article_wrapper">
-                            <p class="article_date">15 Nov 2021</p>
-                            <h3 class="article_title">Jurisdiction</h3>
-                            <p class="article_descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
-                        </div>
+                        <article class="article_item">
+                            <img src="img/Rectangle 18.jpg" alt="">
+                            <div class="article_wrapper">
+                                <time class="article_date" datetime="2021-11-15 22:56">15 Nov 2021</p>
+                                <h3 class="article_title">Jurisdiction</h3>
+                                <p class="article_descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                            </div>
+                        </article>
                     </li>
                     <li class="article">
-                        <img src="img/Rectangle 20.jpg" alt="">
-                        <div class="article_wrapper">
-                            <p class="article_date">28 Nov 2021</p>
-                            <h3 class="article_title">Consulting</h3>
-                            <p class="article_descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
-                        </div>
+                        <article class="article_item">
+                            <img src="img/Rectangle 20.jpg" alt="">
+                            <div class="article_wrapper">
+                                <time class="article_date" datetime="2021-11-15 22:56">28 Nov 2021</p>
+                                <h3 class="article_title">Consulting</h3>
+                                <p class="article_descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                            </div>
+                        </article>
                     </li>
                     <li class="article">
-                        <img src="img/Rectangle 23.jpg" alt="">
-                        <div class="article_wrapper">
-                            <p class="article_date">29 Nov 2021</p>
-                            <h3 class="article_title">Rights and obligations</h3>
-                            <p class="article_descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
-                        </div>
+                        <article class="article_item">
+                            <img src="img/Rectangle 23.jpg" alt="">
+                            <div class="article_wrapper">
+                                <time class="article_date" datetime="2021-11-15 22:56">29 Nov 2021</p>
+                                <h3 class="article_title">Rights and obligations</h3>
+                                <p class="article_descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                            </div>
+                        </article>
                     </li>
                     <li class="article">
-                        <img src="img/Rectangle 24.jpg" alt="">
-                        <div class="article_wrapper">
-                            <p class="article_date">11 Dec 2021</p>
-                            <h3 class="article_title">Contractors</h3>
-                            <p class="article_descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
-                        </div>
+                        <article class="article_item">
+                            <img src="img/Rectangle 24.jpg" alt="">
+                            <div class="article_wrapper">
+                                <time class="article_date" datetime="2021-11-15 22:56">11 Dec 2021</p>
+                                <h3 class="article_title">Contractors</h3>
+                                <p class="article_descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                            </div>
+                        </article>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="clients">
+        <section id="clients" class="clients">
             <div class="clients_container container">
                 <h2 class="clients_title title">Clients</h2>
                 <ul class="clients_list">
@@ -133,7 +145,7 @@
                             <img src="img/Rectangle 25.jpg" alt="client_foto" class="client_foto">
                             <div class="client_meta">
                                 <h3 class="client_name">John Armstrong</h3>
-                                <p class="client_appointment">Customer</p>
+                                <span class="client_appointment">Customer</span>
                             </div>
                         </div>
                     </li>
@@ -160,17 +172,17 @@
                 </ul>
             </div>
         </section>
-        <section class="contacts">
+        <section id="contacts" class="contacts">
             <div class="contacts_container container">
                 <h2 class="contacts_title title">Contacts</h2>
-                <ul class="contacts_list">
+                <address>
+                    <ul class="contacts_list">
                     <li class="contact">
                         <svg width="17" height="24" viewBox="0 0 17 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8.49999 0.416748C3.82374 0.416748 0.0416565 4.19883 0.0416565 8.87508C0.0416565 13.9138 5.38249 20.8617 7.58166 23.508C8.06499 24.088 8.94708 24.088 9.43041 23.508C11.6175 20.8617 16.9583 13.9138 16.9583 8.87508C16.9583 4.19883 13.1762 0.416748 8.49999 0.416748ZM8.49999 11.8959C6.83249 11.8959 5.47916 10.5426 5.47916 8.87508C5.47916 7.20758 6.83249 5.85425 8.49999 5.85425C10.1675 5.85425 11.5208 7.20758 11.5208 8.87508C11.5208 10.5426 10.1675 11.8959 8.49999 11.8959Z" fill="#1C1C1C"/>
                         </svg>
                         <h3 class="contact_title">Visit Us</h3>
-                        <address class="contact_descr">Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit.
-                        </address>   
+                        <p class="contact_descr">Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit.</p>   
                     </li>
                     <li class="contact">
                         <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -190,9 +202,10 @@
 
                     </li>
                 </ul>
+                </address>
             </div>
         </section>
-        <section class="join-us">
+        <section id="join-us" class="join-us">
             <div class="join-us_container container">
                 <h2 class="join-us_title title">Join us</h2>
                 <p class="join-us_descr section_descr">Lionic guides you on making decisions for all aspects of your end-of-life plans.</p>
@@ -229,12 +242,15 @@
                 <p class="copyright">Copyright ©2017. All Right Reserved</p> 
             </div>
             <div class="footer_wrapper">
-                <ul class="footer_nav">
-                    <li class="nav_item__footer"><a href="#" class="nav_link__footer">About Us</a></li>
-                    <li class="nav_item__footer"><a href="#" class="nav_link__footer">Contact Us</a></li>
-                    <li class="nav_item__footer"><a href="#" class="nav_link__footer">Privacy Policy</a></li>
-                    <li class="nav_item__footer"><a href="#" class="nav_link__footer">Terms Condition</a></li>
-                </ul>
+                <nav>
+                    <ul class="footer_nav">
+                        <li class="nav_item__footer"><a href="#" class="nav_link__footer">About Us</a></li>
+                        <li class="nav_item__footer"><a href="#" class="nav_link__footer">Contact Us</a></li>
+                        <li class="nav_item__footer"><a href="#" class="nav_link__footer">Privacy Policy</a></li>
+                        <li class="nav_item__footer"><a href="#" class="nav_link__footer">Terms Condition</a></li>
+                    </ul>
+                </nav>
+                
                 <div class="footer_social">
                     <div class="social_item"><a class="tw" href="http://#"></a></div>
                     <div class="social_item"><a class="linkin" href="http://#"></a></div>

@@ -1,45 +1,45 @@
 @font-face
 {
     font-family: 'OpenSans-Light';
+    src: url('../fonts/opensanslight.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
-    src: url('../fonts/opensanslight.woff2') format('woff2');
     font-display: swap;
 }
 
 @font-face
 {
     font-family: 'OpenSans';
+    src: url('../fonts/opensans.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
-    src: url('../fonts/opensans.woff2') format('woff2');
     font-display: swap;
 }
 
 @font-face
 {
     font-family: 'OpenSans-Semibold';
+    src: url('../fonts/opensanssemibold.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
-    src: url('../fonts/opensanssemibold.woff2') format('woff2');
     font-display: swap;
 }
 
 @font-face
 {
     font-family: 'OpenSans-Bold';
+    src: url('../fonts/opensansbold.woff2') format('woff2');
     font-weight: 600;
     font-style: normal;
-    src: url('../fonts/opensansbold.woff2') format('woff2');
     font-display: swap;
 }
 
 @font-face
 {
     font-family: 'OpenSans-Extrabold';
+    src: url('../fonts/opensansextrabold.woff2') format('woff2');
     font-weight: 800;
     font-style: normal;
-    src: url('../fonts/opensansextrabold.woff2') format('woff2');
     font-display: swap;
 }
 

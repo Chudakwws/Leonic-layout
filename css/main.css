@@ -1,3 +1,5 @@
+/* Hero */
+
 .hero {
     min-height: 550px;
     background-image: url(/img/first-bg\ 1.jpg);
@@ -49,6 +51,8 @@
     font-size: 11px;
     flood-color: #787878;
 }
+
+/* Services */
 
 .services {
     border-bottom: 1px solid #C4C4C4;
@@ -107,6 +111,8 @@
     color: #787878;
 }
 
+/* Articles */
+
 .articles {
     border-bottom: 1px solid #C4C4C4;
     padding: 87px 0 160px 0;
@@ -126,7 +132,12 @@
     margin-bottom: 30px;
     max-width: 570px;
     border: 1px solid #E4E4E4;
+    overflow: hidden;
     border-radius: 5px;
+}
+
+.article_item {
+    display: flex;
 }
 
 .article:nth-child(odd) {
@@ -162,6 +173,8 @@
     line-height: 150%;
     color: #787878;
 }
+
+/* Clients */
 
 .clients {
     border-bottom: 1px solid #C4C4C4;
@@ -225,6 +238,8 @@
     color: #787878;
 }
 
+/* Contacts */
+
 .contacts {
     border-bottom: 1px solid #C4C4C4;
     padding: 87px 0 160px 0;
@@ -264,6 +279,8 @@
     line-height: 180%;
     color: #787878;
 }
+
+/* Join-us */
 
 .join-us {
     border-bottom: 1px solid #C4C4C4;
